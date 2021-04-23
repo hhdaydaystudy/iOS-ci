@@ -122,7 +122,7 @@ changelog=`cat $projectDir/platforms.json`
 #-Q 参数, 是否生成发布后二维码, 默认为不生成, 加上 -Q 参数后会在当前目录生成一张二维码图片, 扫描该图片即可下载该应用.
 #--open 参数, 设置发布后的应用是否开放给所有人下载, 关闭开放使用 --no-open 参数.--password 参数, 设置发布后的应用密码
 #-c 参数, 自定义发布时的 changelog, 支持字符串与文件两种方式, 即 --changelog='this is changelog' 和 --changelog='/Users/fir-cli/changelog'.
-fir p $Export_Path -T c1d4249668197b1034d138c59a**** -c "Your test ipa" -Q
+fir p $Export_Path -T c9804f1eaab6f5eacd7757b29609375d -c "Your test ipa" -Q
 
 echo "\n打包上传更新成功！"
 rm -rf $buildAppToDir
