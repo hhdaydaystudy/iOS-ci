@@ -116,7 +116,7 @@ export LANG=en_US
 export LC_ALL=en_US;
 echo "正在上传到fir.im...."
 #fir p $Export_Path
-changelog=`cat $projectDir/platforms.json`
+changelog=`cat $projectDir`
 
 # 将生成的文件，上传到fir分发网站 -T：后面的是api的token，验证你的身份。使用这个之前，必须先安装fir的命令行工具： $ sudo gem install fir-cli --no-ri --no-rdoc
 #-Q 参数, 是否生成发布后二维码, 默认为不生成, 加上 -Q 参数后会在当前目录生成一张二维码图片, 扫描该图片即可下载该应用.
