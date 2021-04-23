@@ -1,6 +1,0 @@
-framework module APSDK {
-  umbrella header "APSDK.h"
-
-  export *
-  module * { export * }
-}
