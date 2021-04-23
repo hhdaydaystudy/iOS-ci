@@ -1,0 +1,23 @@
+PODS:
+  - AppicAdSDK (4.3.5.0)
+  - GDTMobSDK (4.12.4):
+    - GDTMobSDK/GDTMobSDK (= 4.12.4)
+  - GDTMobSDK/GDTMobSDK (4.12.4)
+
+DEPENDENCIES:
+  - AppicAdSDK
+  - GDTMobSDK
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - GDTMobSDK
+  https://github.com/KATracking/AppicAdSpecs:
+    - AppicAdSDK
+
+SPEC CHECKSUMS:
+  AppicAdSDK: bb9fa12fa68bd37266a3da9a5e993f959a14f292
+  GDTMobSDK: a5b9ad3b329c913c70266e7386d113b0190d61e0
+
+PODFILE CHECKSUM: 96b9187cbce9db48cdebc6029d0940302152c7c0
+
+COCOAPODS: 1.10.1

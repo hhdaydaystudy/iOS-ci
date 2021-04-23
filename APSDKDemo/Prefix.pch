@@ -1,0 +1,22 @@
+//
+//  Prefix.pch
+//  KiwiAppAffiliate
+//
+//  Created by Jason Y Liu on 10/9/16.
+//  Copyright © 2016 Jason Y Liu. All rights reserved.
+//
+
+#ifndef Prefix_pch
+#define Prefix_pch
+
+#import <Foundation/Foundation.h>
+#import <AdSupport/ASIdentifierManager.h>
+#import <CoreTelephony/CTTelephonyNetworkInfo.h>
+#import <CoreTelephony/CTCarrier.h>
+#import <Security/Security.h>
+#import <StoreKit/StoreKit.h>
+#import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+#import <APSDK/APPch.h>
+
+#endif /* Prefix_pch */
