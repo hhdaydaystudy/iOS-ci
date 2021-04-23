@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KATrackingAdDemo.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>461D67F5324B75ACEB3A320044898051C3A7E66A</string>
+				<key>dateExpires</key>
+				<string>2022/1/20</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>8JEAL74THQ.com.sogou.sogoureader</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>8JEAL74THQ</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>8JEAL74THQ.com.sogou.sogoureader</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>KATrackingAdDemo.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>e8d9da14-c72c-4973-a73f-96467ebc4603</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>8JEAL74THQ</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
