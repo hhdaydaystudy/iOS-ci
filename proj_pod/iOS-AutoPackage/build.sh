@@ -23,7 +23,7 @@ projectName=`find . -name *.xcodeproj | awk -F "[/.]" '{print $(NF-1)}'`
 echo "项目名称:$projectName"
 projectDir=`pwd` #项目所在目录的绝对路径
 echo $projectDir
-wwwIPADir=~/Desktop/$projectName-IPA #ipa，icon最后所在的目录绝对路径
+wwwIPADir=~/Users/lihu/.jenkins/workspace/iOS-ci/proj_pod/$projectName-IPA #ipa，icon最后所在的目录绝对路径
 isWorkSpace=true
  #判断是用的workspace还是直接project，workspace设置为true，否则设置为false
 
