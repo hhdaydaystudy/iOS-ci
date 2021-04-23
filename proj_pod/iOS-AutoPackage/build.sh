@@ -8,7 +8,7 @@ export LC_ALL=zh_CN.GB2312;
 export LANG=zh_CN.GB2312
 
 #一些路径的切换：切换到你的工程文件目录---------①此处需要手动修改项目所在路径
-projectPath=/Users/lihu/Desktop/Jenkins_job/AppicAdDemo/proj_pod
+projectPath=/Users/lihu/.jenkins/workspace/iOS-ci/proj_pod
 cd ..
 cd $projectPath
 
@@ -23,7 +23,7 @@ projectName=`find . -name *.xcodeproj | awk -F "[/.]" '{print $(NF-1)}'`
 echo "项目名称:$projectName"
 projectDir=`pwd` #项目所在目录的绝对路径
 echo $projectDir
-wwwIPADir=~/Desktop/Jenkins_job/AppicAdDemo/proj_pod$projectName-IPA #ipa，icon最后所在的目录绝对路径
+wwwIPADir=~/Desktop/$projectName-IPA #ipa，icon最后所在的目录绝对路径
 isWorkSpace=true
  #判断是用的workspace还是直接project，workspace设置为true，否则设置为false
 
