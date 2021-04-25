@@ -8,7 +8,7 @@ export LC_ALL=zh_CN.GB2312;
 export LANG=zh_CN.GB2312
 
 #一些路径的切换：切换到你的工程文件目录---------①此处需要手动修改项目所在路径
-projectPath=/Users/lihu/.jenkins/workspace/iOS-ci/proj_pod
+projectPath=/Users/lihu/.jenkins/workspace/iOS-ci_shell/proj_pod
 cd ..
 cd $projectPath
 
