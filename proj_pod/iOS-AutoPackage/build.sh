@@ -85,7 +85,7 @@ fi
 #sudo chmod -R 777 $outPath
 
 echo "开始打包$projectName.app成$projectName.ipa....."
-sudo xcrun -sdk iphoneos PackageApplication -v $appDir/Release-iphoneos/$projectName.app  -o $outPath/$projectName.ipa
+xcrun -sdk iphoneos PackageApplication -v $appDir/Release-iphoneos/$projectName.app  -o $outPath/$projectName.ipa
 
 ###############开始拷贝到目标下载目录
 #检查文件是否存在
