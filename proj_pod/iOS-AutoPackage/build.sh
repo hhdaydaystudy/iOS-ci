@@ -13,7 +13,7 @@ cd ..
 cd $projectPath
 
 ###############设置需编译的项目配置名称
-buildConfig="AdHoc", #编译的方式,有Release,Debug，自定义的AdHoc等
+buildConfig="有Release", #编译的方式,有Release,Debug
 
 ##########################################################################################
 ##############################以下部分为自动生成部分，不需要手动修改############################
@@ -69,8 +69,6 @@ fi
 ipaName=$projectName #将项目名转小写
 findFolderName=`find . -name "$buildConfig-*" -type d |xargs basename` #查找目录
 appDir=$buildAppToDir/$findFolderName  #app所在路径
-echo 'sssssss' $ipaName
-echo 'sssssss' $appDir
 outPath=$projectPath/temp
 #####检测outPath路径是否存在
 if [ -d "$outPath" ]; then
@@ -101,10 +99,10 @@ Export_Path=$wwwIPADir/$projectName$(date +%Y%m%d-%H:%M:%S).ipa
 cp -f -p $outPath/$ipaName.ipa $Export_Path   #拷贝ipa文件
 echo "复制$ipaName.ipa到${wwwIPADir}成功"
 rm -rf $outPath
-#rm -rf ./build
+rm -rf ./build
 echo "~~~~~~~~~~~~~~~~~~~结束编译，处理成功~~~~~~~~~~~~~~~~~~~"
 
-#rm -rf $buildAppToDir
+rm -rf $buildAppToDir
 rm -rf $projectDir/tmp
 
 
