@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appName</key>
+	<string>金域</string>
+	<key>workspace</key>
+	<string>KATrackingAdDemo.xcworkspace</string>
+	<key>scheme</key>
+	<string>KATrackingAdDemo</string>
+	<key>iconPath</key>
+	<string>static/icon/1024.png</string>
+	<key>plistPaths</key>
+	<array>
+		<string>proj_pod/KATrackingAdDemo/Info.plist</string>
+	</array>
+	<key>Debug</key>
+	<dict>
+		<key>method</key>
+		<string>development</string>
+		<key>teamID</key>
+		<string>8JEAL74THQ</string>
+		<key>bundleID</key>
+		<string>com.appicplay.failybrakes</string>
+		<key>provisioningProfiles</key>
+		<dict>
+			<key>com.appicplay.failybrakes</key>
+			<string>QAtest</string>
+		</dict>
+	</dict>
+	<key>AdHoc</key>
+	<dict>
+		<key>method</key>
+		<string>ad-hoc</string>
+		<key>teamID</key>
+		<string>8JEAL74THQ</string>
+		<key>bundleID</key>
+		<string>com.appicplay.failybrakes</string>
+		<key>provisioningProfiles</key>
+		<dict>
+			<key>com.appicplay.failybrakes</key>
+			<string>QAtest-adhoc</string>
+		</dict>
+	</dict>
+	<key>Release</key>
+	<dict>
+		<key>method</key>
+		<string>app-store</string>
+		<key>teamID</key>
+		<string>8JEAL74THQ</string>
+		<key>bundleID</key>
+		<string>com.appicplay.failybrakes</string>
+		<key>provisioningProfiles</key>
+		<dict>
+			<key>com.appicplay.failybrakes</key>
+			<string>QAtest-res</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
