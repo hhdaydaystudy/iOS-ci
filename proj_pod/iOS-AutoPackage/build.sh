@@ -104,7 +104,7 @@ rm -rf $outPath
 rm -rf ./build
 echo "~~~~~~~~~~~~~~~~~~~结束编译，处理成功~~~~~~~~~~~~~~~~~~~"
 
-rm -rf $buildAppToDir
+#rm -rf $buildAppToDir
 rm -rf $projectDir/tmp
 
 
