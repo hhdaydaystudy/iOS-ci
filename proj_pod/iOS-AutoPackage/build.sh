@@ -101,7 +101,7 @@ Export_Path=$wwwIPADir/$projectName$(date +%Y%m%d-%H:%M:%S).ipa
 cp -f -p $outPath/$ipaName.ipa $Export_Path   #拷贝ipa文件
 echo "复制$ipaName.ipa到${wwwIPADir}成功"
 rm -rf $outPath
-rm -rf ./build
+#rm -rf ./build
 echo "~~~~~~~~~~~~~~~~~~~结束编译，处理成功~~~~~~~~~~~~~~~~~~~"
 
 #rm -rf $buildAppToDir
