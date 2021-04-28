@@ -12,7 +12,7 @@
 	<string>static/icon/1024.png</string>
 	<key>plistPaths</key>
 	<array>
-		<string>/Users/lihu/.jenkins/workspace/iOS-ci-python/APSDKDemo/Info.plist</string>
+		<string>APSDKDemo/Info.plist</string>
 	</array>
 	<key>Debug</key>
 	<dict>
