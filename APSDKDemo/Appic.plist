@@ -25,7 +25,7 @@
 		<key>provisioningProfiles</key>
 		<dict>
 			<key>com.Benqumark.KuaiMeiKuaiZhuang</key>
-			<string>dev</string>
+			<string>9be4d92d-e4eb-4220-a382-9c6267623cec</string>
 		</dict>
 	</dict>
 	<key>AdHoc</key>
@@ -39,7 +39,7 @@
 		<key>provisioningProfiles</key>
 		<dict>
 			<key>com.Benqumark.KuaiMeiKuaiZhuang</key>
-			<string>dev</string>
+			<string>9be4d92d-e4eb-4220-a382-9c6267623cec</string>
 		</dict>
 	</dict>
 	<key>Release</key>
