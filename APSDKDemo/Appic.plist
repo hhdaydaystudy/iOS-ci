@@ -25,7 +25,7 @@
 		<key>provisioningProfiles</key>
 		<dict>
 			<key>com.appicplay.failybrakes</key>
-			<string>cdf86c40-11c3-41ef-b305-1e15028fa061</string>
+			<string>dev</string>
 		</dict>
 	</dict>
 	<key>AdHoc</key>
@@ -39,7 +39,7 @@
 		<key>provisioningProfiles</key>
 		<dict>
 			<key>com.appicplay.failybrakes</key>
-			<string>cdf86c40-11c3-41ef-b305-1e15028fa061</string>
+			<string>dev</string>
 		</dict>
 	</dict>
 	<key>Release</key>
@@ -53,7 +53,7 @@
 		<key>provisioningProfiles</key>
 		<dict>
 			<key>com.appicplay.failybrakes</key>
-			<string>cdf86c40-11c3-41ef-b305-1e15028fa061</string>
+			<string>dev</string>
 		</dict>
 	</dict>
 </dict>
