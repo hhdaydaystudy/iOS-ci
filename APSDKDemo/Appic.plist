@@ -9,7 +9,7 @@
 	<key>scheme</key>
 	<string>KATrackingAdDemo</string>
 	<key>iconPath</key>
-	<string>static/icon/1024.png</string>
+	<string></string>
 	<key>plistPaths</key>
 	<array>
 		<string>APSDKDemo/Info.plist</string>
