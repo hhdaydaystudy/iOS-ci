@@ -35,11 +35,11 @@
 		<key>teamID</key>
 		<string>8JEAL74THQ</string>
 		<key>bundleID</key>
-		<string>com.appicplay.failybrakes</string>
+		<string>com.Benqumark.KuaiMeiKuaiZhuang</string>
 		<key>provisioningProfiles</key>
 		<dict>
 			<key>com.Benqumark.KuaiMeiKuaiZhuang</key>
-			<string>dev</string>
+			<string>GeneralAdHoc</string>
 		</dict>
 	</dict>
 	<key>Release</key>
