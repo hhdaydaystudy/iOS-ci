@@ -25,7 +25,7 @@
 		<key>provisioningProfiles</key>
 		<dict>
 			<key>com.Benqumark.KuaiMeiKuaiZhuang</key>
-			<string>6742b553-5306-4f3a-9953-00b6b7d01967</string>
+			<string>GeneralAdHoc</string>
 		</dict>
 	</dict>
 	<key>AdHoc</key>
@@ -39,7 +39,7 @@
 		<key>provisioningProfiles</key>
 		<dict>
 			<key>com.Benqumark.KuaiMeiKuaiZhuang</key>
-			<string>6742b553-5306-4f3a-9953-00b6b7d01967</string>
+			<string>GeneralAdHoc</string>
 		</dict>
 	</dict>
 	<key>Release</key>
@@ -53,7 +53,7 @@
 		<key>provisioningProfiles</key>
 		<dict>
 			<key>com.Benqumark.KuaiMeiKuaiZhuang</key>
-			<string>6742b553-5306-4f3a-9953-00b6b7d01967</string>
+			<string>GeneralAdHoc</string>
 		</dict>
 	</dict>
 </dict>
