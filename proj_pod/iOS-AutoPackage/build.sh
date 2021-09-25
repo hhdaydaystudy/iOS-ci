@@ -13,7 +13,7 @@ cd ..
 cd $projectPath
 
 ###############设置需编译的项目配置名称
-buildConfig="11" #编译方式,development，ad-hoc，enterprise，app-store
+buildConfig="development" #编译方式,development，ad-hoc，enterprise，app-store
 
 ##########################################################################################
 ##############################以下部分为自动生成部分，不需要手动修改############################
